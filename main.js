@@ -38,10 +38,10 @@ async function getTopics() {
   //         fetchData.innerHTML += `<p>fetch() request made with sec-browsing-topics header: ${JSON.stringify(j['sec-browsing-topics'], null, 2)}</p>` + fetchData.innerHTML;
   //     });
   //   }
-  //   } catch(error) {
-  //   logEl.innerHTML = 'Error: see console for details.';
-  //   console.log('Error:', error);
-  // }
+    } catch(error) {
+    logEl.innerHTML = 'Error: see console for details.';
+    console.log('Error:', error);
+  }
 }
 
 (async () => {
